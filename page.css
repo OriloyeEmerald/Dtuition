@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+  color: black;
+  background-color: #fff;
+  
+}
+ .header {
+  position:sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1000;
+  background-color: #fff;
+
+ }
+.navbar-brand {
+  font-family: "Pacifico";
+  font-weight: bold;
+  font-size: 2rem;
+  color: lightcoral!important;
+}
+.nav-link:hover{
+  color: #00e8e8!important;
+  transform: scale(1.1);
+}
+.active .nav-link {
+  color: #00e8e8!important; 
+
+}
+
+ /* custom scroll bar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+}
+::-webkit-scrollbar-thumb{
+  background: #00e8e8;
+}
+
+
+
+.topbtn {
+  position: fixed;
+  right: 2%;
+  bottom: 10%;
+  width: 30px;
+  height: 30px;
+  background: #00e8e8;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-self: center;
+  z-index: 1;
+ }
+
+
+.section-1 {
+    background-image: url(stock.WEBP);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.section-1 h1 {
+  padding-top: 12%;
+  padding-bottom: 1%;  
+}
+.section-1 h1,p {
+  font-family: "Righteous";
+  color: #000;
+}
+.btn1, .btn2 {
+    margin-bottom: 13%;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #00e8e8!important;
+}
+.section-1 p {
+    padding-top:1% ;
+    padding-bottom: 2%;  
+  }
+   .section-2 .images .card:hover img {
+     transform: scale(1.1);
+   }
+   .section-2 .images .card:hover .card-body {
+     transform: scale(1.1);
+   }
+  .section-3 {
+    background-image: url(stock6.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+  }
+  .section2 h2 {
+    color: whitesmoke;
+    font-family: "Righteous";
+}
+.section2 p{
+  font-family: "ubuntu";
+  color: whitesmoke;
+  
+}
+.section-4 .col-md-4 i {
+  font-size:2rem;
+  color: #ef5651;
+}
+.a-link {
+  text-decoration: none;
+}
